@@ -37,12 +37,19 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
+     * Cantidad de dinero total acumulada
+     */
+    public int getCantidadAcumulada() {
+      return totalDineroAcumulado;
+    }
+
+    /**
      * Devuelve el precio del billete
      */
     public int getPrecioBillete() {
         return precioBillete;
     }
-
+    
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
