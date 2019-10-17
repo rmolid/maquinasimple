@@ -22,7 +22,20 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "León";
         estacionDestino = "Cuenca";
     }
-
+   
+    /**
+     * Crea una maquina expendedora de billetes donde el precio se indica
+     * por parametro, el origen siempre es Leon y el destino se indica por
+     * parametro
+     */
+    public MaquinaExpendedoraSimple(int newPrecioBillete,String newEstacionDestino2) {
+        precioBillete = newPrecioBillete;
+        balanceClienteActual = 0;
+        totalDineroAcumulado = 0;
+        estacionOrigen = "León";
+        estacionDestino = newEstacionDestino2;
+    }
+    
     /**
      * Devuelve el precio del billete
      */
